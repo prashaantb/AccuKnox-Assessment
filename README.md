@@ -29,15 +29,11 @@ Ensure the following are installed:
 
 ```bash
 # 1. Clone the repository or download the folder
-git clone https://github.com/your-repo/orangehrm-user-tests.git
-cd orangehrm-user-tests
+git clone https://github.com/prashaantb/AccuKnox-Assessment.git
+cd AccuKnox-Assessment
 
-# 2. (Optional) Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate     # On Windows use: venv\Scripts\activate
-
-# 3. Install dependencies
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# 4. Install Playwright browsers
+# 3. Install Playwright browsers
 playwright install
